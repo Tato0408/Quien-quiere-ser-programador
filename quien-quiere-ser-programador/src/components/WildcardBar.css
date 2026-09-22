@@ -1,0 +1,128 @@
+.wildcard-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.wildcard {
+  position: relative;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(10, 16, 38, 0.96), rgba(4, 7, 18, 0.96));
+  border: 2px solid var(--neon-blue);
+  box-shadow: 0 0 18px rgba(41, 196, 246, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+}
+
+.wildcard:hover:not(:disabled) {
+  box-shadow: 0 0 26px rgba(41, 196, 246, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.wildcard:disabled {
+  cursor: default;
+}
+
+.wildcard-used {
+  opacity: 0.35;
+  filter: grayscale(1);
+}
+
+.wildcard-label {
+  font-family: var(--font-ui);
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--text);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.fifty-ring {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: relative;
+  overflow: hidden;
+  flex: none;
+  display: inline-block;
+}
+
+.fifty-half {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+}
+
+.swap-ring {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  border-bottom-color: transparent;
+  transform: rotate(20deg);
+  flex: none;
+  display: inline-block;
+}
+
+.duo {
+  width: 28px;
+  height: 20px;
+  position: relative;
+  flex: none;
+  display: inline-block;
+}
+
+.duo-person {
+  position: absolute;
+  bottom: 0;
+}
+
+.duo-head {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.duo-body {
+  width: 16px;
+  height: 9px;
+  border-radius: 8px 8px 0 0;
+  background: #fff;
+  display: block;
+  margin-top: 1px;
+}
+
+.duo-p1 {
+  left: 0;
+}
+
+.duo-p2 {
+  left: 11px;
+  opacity: 0.85;
+}
+
+.wildcard-timer {
+  margin-left: 2px;
+  background: #1e1030;
+  border: 1px solid var(--purple);
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: #e9d5ff;
+  white-space: nowrap;
+}

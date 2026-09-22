@@ -1,0 +1,392 @@
+{
+    "preguntas": [
+        {
+            "tipo": 1,
+            "pregunta": "¿Cuál es el lenguaje de programación más usado?",
+            "opciones": [
+                "JavaScript",
+                "Python",
+                "Java",
+                "C++"
+            ],
+            "respuesta": "JavaScript"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "¿Cuál es el nombre del profesor de frontend de 3er año?",
+            "opciones": [
+                "Wilfredo",
+                "William",
+                "Bryan",
+                "Ricardo"
+            ],
+            "respuesta": "Wilfredo"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "¿Cuál de estos no es una base de datos relacional?",
+            "opciones": [
+                "Oracle DB",
+                "SQL Server",
+                "MongoDB",
+                "PostgreSQL"
+            ],
+            "respuesta": "MongoDB"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "Desarrollo de software es la especialidad con más estudiantes actualmente",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta": "Verdadero"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "¿Qué tipos de lenguajes de programación se estudian en primer año?",
+            "opciones": [
+                "C#, JavaScript y CSS",
+                "JavaScript, CSS y HTML",
+                "C# y JavaScript",
+                "CSS y HTML"
+            ],
+            "respuesta": "C# y JavaScript"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "Una función y un método tienen el mismo funcionamiento dentro de la programación",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta": "Verdadero"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "¿Cuál es el nombre completo del coordinador de la especialidad de Desarrollo de Software?",
+            "opciones": [
+                "Josué Alberto Henríquez Guinea",
+                "Josué Alberto Guinea Henríquez",
+                "Josué Alberto Hernández Guinea",
+                "Josué Alberto Guinea Hernández"
+            ],
+            "respuesta": "Josué Alberto Guinea Henríquez"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "¿Qué cláusula SQL funciona para seleccionar todos los datos de una tabla?",
+            "opciones": [
+                "SELECT FROM [Nombre de la tabla]",
+                "SELECT ALL FROM [Nombre de la tabla]",
+                "SELECT * FROM [Nombre de la tabla]",
+                "SELECT ALL [Nombre de la tabla]"
+            ],
+            "respuesta": "SELECT * FROM [Nombre de la tabla]"
+        },
+        {
+            "tipo": 1,
+            "pregunta": "¿Qué sucede al ejecutar la cláusula SQL: DELETE FROM [Nombre de la tabla] WHERE Número = 1?",
+            "opciones": [
+                "Elimina todos los datos de la tabla que su valor sea igual a 1",
+                "Elimina todos los datos de la tabla que su valor sea diferente de 1",
+                "Elimina todos los datos de la tabla independientemente tengan 1 o no",
+                "Genera un error y no sucede nada"
+            ],
+            "respuesta": "Elimina todos los datos de la tabla que su valor sea igual a 1"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Qué significa HTML?",
+            "opciones": [
+                "Hyper Market Language",
+                "HyperText Markup Language",
+                "HyperText Market Language",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": "HyperText Markup Language"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál es el nombre de la empresa creadora de la inteligencia artificial Claude?",
+            "opciones": [
+                "Antropic",
+                "OpenAI",
+                "Opus Sonnet",
+                "Anthropic"
+            ],
+            "respuesta": "Anthropic"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál de estos NO es un modelo de inteligencia artificial?",
+            "opciones": [
+                "Mistral AI",
+                "Grok",
+                "Meta",
+                "Cassandra AI"
+            ],
+            "respuesta": "Cassandra AI"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál de estos no es un lenguaje de programación?",
+            "opciones": [
+                "Ruby",
+                "Astro",
+                "TypeScript",
+                "Python"
+            ],
+            "respuesta": "Astro"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál es el nombre del modelo más reciente de ChatGPT?",
+            "opciones": [
+                "Sonnet",
+                "Opus 5",
+                "GPT-6 Astra",
+                "GPT-5 Pro"
+            ],
+            "respuesta": "GPT-6 Astra"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "CSS significa Hoja de estilos en cascada (Cascading style sheets)",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta": "Verdadero"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál es el nombre de la aplicación usada en 2do año para crear la API?",
+            "opciones": [
+                "Visual Studio Code",
+                "Visual Studio 2022",
+                "IntelliJ",
+                "Apache NetBeans"
+            ],
+            "respuesta": "IntelliJ"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál es el nombre del creador de Facebook?",
+            "opciones": [
+                "Bill Gates",
+                "Mark Zuckerberg",
+                "Elon Musk",
+                "Sam Altman"
+            ],
+            "respuesta": "Mark Zuckerberg"
+        },
+        {
+            "tipo": 2,
+            "pregunta": "¿Cuál es el nombre de la IA más usada en los años 2020 - 2022?",
+            "opciones": [
+                "ChatGPT",
+                "Claude",
+                "Gemini",
+                "Perplexity"
+            ],
+            "respuesta": "ChatGPT"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Cuál es la diferencia entre margin y padding?",
+            "opciones": [
+                "margin ajusta el margen interno de la sección y padding el margen externo",
+                "margin ajusta el margen externo de la sección y padding el margen interno",
+                "margin y padding tienen la misma funcionalidad",
+                "margin ajusta el margen superior y padding el margen inferior"
+            ],
+            "respuesta": "margin ajusta el margen externo de la sección y padding el margen interno"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Cuál es la diferencia entre los operadores % y / en programación?",
+            "opciones": [
+                "% obtiene el residuo de una división y / obtiene el resultado de la división",
+                "% obtiene el resultado de una división y / obtiene el resto de la división",
+                "% no existe dentro de los operadores en la programación",
+                "No hay diferencia, tienen el mismo significado, depende únicamente del lenguaje de programación si se usa uno u otro"
+            ],
+            "respuesta": "% obtiene el residuo de una división y / obtiene el resultado de la división"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "Un operador ternario tiene el mismo funcionamiento lógico que un IF ELSE",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta": "Verdadero"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Cuál es la definición más exacta para polimorfismo?",
+            "opciones": [
+                "Es el principio que oculta los datos internos de una clase y restringe su acceso directo desde fuera",
+                "Es un mecanismo que permite crear una clase nueva a partir de una clase ya existente para reutilizar código y ampliar funciones",
+                "La capacidad de enviar un mismo mensaje o llamar a un mismo método en diferentes objetos y obtener respuestas distintas según el tipo de objeto",
+                "Ninguna de las anteriores"
+            ],
+            "respuesta": "La capacidad de enviar un mismo mensaje o llamar a un mismo método en diferentes objetos y obtener respuestas distintas según el tipo de objeto"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Cuál de estos no es un framework de JavaScript?",
+            "opciones": [
+                "React",
+                "Vue",
+                "Angular",
+                "Django"
+            ],
+            "respuesta": "Django"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Cuál de estos no es un framework de HTML y CSS?",
+            "opciones": [
+                "Tailwind",
+                "Sass",
+                "Bootstrap",
+                "Bulma"
+            ],
+            "respuesta": "Sass"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Qué significa JSX?",
+            "opciones": [
+                "JavaScript XML",
+                "JavaScript 10ma generación",
+                "JavaScript Xtreme",
+                "No existe"
+            ],
+            "respuesta": "JavaScript XML"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Qué significa JSON?",
+            "opciones": [
+                "JavaScript Oriented Notion",
+                "JavaScript Oriented Notation",
+                "JavaScript Object Notation",
+                "JavaScript Object Notion"
+            ],
+            "respuesta": "JavaScript Object Notation"
+        },
+        {
+            "tipo": 3,
+            "pregunta": "¿Cuál es el día oficial del día del programador?",
+            "opciones": [
+                "Cada segundo sábado de septiembre",
+                "12 de septiembre",
+                "13 de septiembre",
+                "No tiene día definido"
+            ],
+            "respuesta": "12 de septiembre"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Cuál es el segundo nombre del profesor de backend de 3er año?",
+            "opciones": [
+                "Ezequiel",
+                "Miranda",
+                "Exequiel",
+                "Bryan"
+            ],
+            "respuesta": "Exequiel"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Para qué funciona la siguiente cláusula: SELECT departamento, SUM(salario) AS total_salarios FROM empleados GROUP BY departamento HAVING SUM(salario) > 50000;?",
+            "opciones": [
+                "Selecciona de la tabla empleados, agrupa por departamento, calcula la suma de cada grupo, filtra los grupos y muestra únicamente cuya suma sea 50000",
+                "Selecciona de la tabla empleados, suma el salario de cada empleado, guarda el total en una variable, agrupa por departamento donde el alquiler sea mayor a 50000",
+                "Selecciona de la tabla empleados, agrupa por departamento, suma el salario de todos los inquilinos, y muestra los que tienen un salario a partir de 50000",
+                "Selecciona de la tabla empleados, suma el salario de cada empleado, filtra por valor de departamento de más de 50000 y muestra los datos que encontró"
+            ],
+            "respuesta": "Selecciona de la tabla empleados, agrupa por departamento, calcula la suma de cada grupo, filtra los grupos y muestra únicamente cuya suma sea 50000"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Cómo funciona el sistema operativo de Excel?",
+            "opciones": [
+                "Por filas y columnas y funciones de sumatoria",
+                "Por filas y columnas, usando tablas para el almacenamiento de datos",
+                "Por filas y columnas, usando funciones, tablas y gráficas para el almacenamiento y cálculo de datos",
+                "Excel no es un sistema operativo"
+            ],
+            "respuesta": "Excel no es un sistema operativo"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Cuándo es el cumpleaños del Ing. Josué Guinea?",
+            "opciones": [
+                "25 de diciembre",
+                "26 de diciembre",
+                "27 de diciembre",
+                "28 de diciembre"
+            ],
+            "respuesta": "26 de diciembre"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Cuál es la diferencia entre un JSON y un BSON?",
+            "opciones": [
+                "El JSON es un texto plano legible para humanos mientras que el BSON es una representación binaria de esos datos",
+                "El JSON es un texto legible para el traspaso de datos y BSON es un JSON pero para bases de datos",
+                "El JSON es un texto en lenguaje humano que al final es traducido en BSON para el entendimiento del servidor",
+                "El JSON es un texto con objetos y arreglos mientras que el BSON solamente cuenta con objetos"
+            ],
+            "respuesta": "El JSON es un texto plano legible para humanos mientras que el BSON es una representación binaria de esos datos"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿En su tiempo, por cuánto dinero se vendió la aplicación creada por salvadoreños HUGO?",
+            "opciones": [
+                "140 millones",
+                "150 millones",
+                "160 millones",
+                "170 millones"
+            ],
+            "respuesta": "150 millones"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Cuál es la diferencia entre un bug y un glitch?",
+            "opciones": [
+                "Un bug es un error permanente del código fuente del programa, mientras que un glitch es la manifestación de ese error",
+                "Un glitch es un error permanente del código fuente del programa, mientras que un bug es la manifestación de ese error",
+                "Un bug es un error que sucede dentro del backend del sitio web y un glitch es la manifestación visual de ese error en el frontend",
+                "Ambas son por igual un error. Su nombre deriva del uso que le da cada persona"
+            ],
+            "respuesta": "Un bug es un error permanente del código fuente del programa, mientras que un glitch es la manifestación de ese error"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿En qué año inició formalmente la era de la programación?",
+            "opciones": [
+                "1801",
+                "1899",
+                "1901",
+                "2001"
+            ],
+            "respuesta": "1801"
+        },
+        {
+            "tipo": 4,
+            "pregunta": "¿Cuál es el animal asociado a la técnica más famosa para resolver problemas de lógica de programación?",
+            "opciones": [
+                "Elefante de plástico",
+                "Oso de peluche",
+                "Pato de hule",
+                "Cualquier tipo de juguete de animal"
+            ],
+            "respuesta": "Pato de hule"
+        }
+       ]
+}

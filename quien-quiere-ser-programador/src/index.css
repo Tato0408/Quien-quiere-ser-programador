@@ -1,0 +1,61 @@
+:root {
+  --bg-black: #03040c;
+  --bg-navy: #070c24;
+  --bg-navy-2: #040711;
+  --panel: rgba(8, 13, 28, 0.72);
+  --panel-solid: #080d20;
+  --neon-blue: #29c4f6;
+  --neon-blue-soft: rgba(41, 196, 246, 0.35);
+  --teal: #2dd4bf;
+  --purple: #8b5cf6;
+  --gold: #fbbf24;
+  --gold-deep: #f59e0b;
+  --text: #f1f5f9;
+  --text-dim: #8fa3c9;
+  --green: #10b981;
+  --yellow: #eab308;
+  --orange: #f97316;
+  --red: #ef4444;
+
+  --font-display: 'Baloo 2', sans-serif;
+  --font-ui: 'Poppins', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: var(--bg-black);
+  color: var(--text);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}

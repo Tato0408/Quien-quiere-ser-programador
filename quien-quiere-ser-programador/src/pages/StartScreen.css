@@ -1,0 +1,176 @@
+.start-stage {
+  position: relative;
+  width: 100%;
+  min-height: 100svh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(ellipse 900px 500px at 50% -10%, rgba(56, 189, 248, 0.16), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 100%, rgba(168, 85, 247, 0.14), transparent 60%),
+    linear-gradient(180deg, var(--bg-black) 0%, var(--bg-navy) 55%, var(--bg-navy-2) 100%);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.start-stage-leave {
+  opacity: 0;
+  transform: scale(1.04);
+}
+
+.start-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(56, 189, 248, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 900px 600px at 50% 40%, #000 40%, transparent 85%);
+}
+
+.start-particle {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 22px;
+  color: rgba(94, 234, 212, 0.35);
+  animation: startFloat 6s ease-in-out infinite;
+}
+
+@keyframes startFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-22px);
+    opacity: 0.9;
+  }
+}
+
+.start-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 32px;
+}
+
+.start-kicker {
+  font-family: var(--font-mono);
+  letter-spacing: 6px;
+  color: var(--neon-blue);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.start-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(34px, 6vw, 62px);
+  line-height: 1.1;
+  margin: 0;
+  background: linear-gradient(180deg, #fff 20%, var(--neon-blue) 70%, #0ea5e9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 26px rgba(56, 189, 248, 0.55));
+}
+
+.start-subtitle {
+  margin-top: 16px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: 3px;
+  color: var(--gold);
+  text-shadow: 0 0 18px rgba(251, 191, 36, 0.5);
+}
+
+.start-tagline {
+  margin-top: 20px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: var(--text-dim);
+}
+
+.start-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 20px 58px;
+  margin-top: 42px;
+  background: linear-gradient(135deg, var(--gold), var(--orange));
+  clip-path: polygon(28px 0, calc(100% - 28px) 0, 100% 50%, calc(100% - 28px) 100%, 28px 100%, 0 50%);
+  box-shadow: 0 0 40px rgba(249, 115, 22, 0.55);
+  border: none;
+  animation: startBtnPulse 2s ease-in-out infinite;
+}
+
+@keyframes startBtnPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 40px rgba(249, 115, 22, 0.55);
+  }
+  50% {
+    transform: scale(1.035);
+    box-shadow: 0 0 66px rgba(249, 115, 22, 0.85);
+  }
+}
+
+.start-play span:first-child {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 27px;
+  color: #1e1206;
+  letter-spacing: 2px;
+}
+
+.start-cursor {
+  display: inline-block;
+  width: 12px;
+  height: 26px;
+  background: #1e1206;
+  animation: startBlink 1s step-end infinite;
+}
+
+@keyframes startBlink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.start-ranking-link {
+  display: block;
+  margin: 22px auto 0;
+  background: transparent;
+  border: 1px solid rgba(41, 196, 246, 0.4);
+  border-radius: 999px;
+  padding: 10px 26px;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  transition: 0.15s;
+}
+
+.start-ranking-link:hover {
+  color: var(--neon-blue);
+  border-color: var(--neon-blue);
+  box-shadow: 0 0 16px rgba(41, 196, 246, 0.3);
+}
+
+.start-footer {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  color: #5b6b8c;
+  font-size: 12px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
