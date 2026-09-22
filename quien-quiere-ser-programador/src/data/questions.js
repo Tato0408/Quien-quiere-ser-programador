@@ -22,14 +22,33 @@ export const QUESTIONS = raw.preguntas.map((q, i) => {
 
 const ORDER = ['facil', 'media', 'dificil', 'ingeniero']
 
+// Fisher-Yates: a diferencia de sort(() => Math.random() - 0.5), da una
+// probabilidad uniforme real a cada posición (ese truco de sort está sesgado,
+// sobre todo en arrays chicos, y tiende a dejar el primer elemento primero).
+function shuffle(array) {
+  const result = [...array]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
+// Devuelve la pregunta con sus opciones en un orden distinto (y correctIndex
+// recalculado), para que la respuesta correcta no caiga siempre en la misma letra.
+export function shuffleOptions(question) {
+  const correctValue = question.options[question.correctIndex]
+  const options = shuffle(question.options)
+  return { ...question, options, correctIndex: options.indexOf(correctValue) }
+}
+
 // Arma una ronda de 12 preguntas (3 por dificultad) en orden de dificultad ascendente,
-// eligiendo 3 al azar de cada grupo del banco disponible.
+// eligiendo 3 al azar de cada grupo del banco disponible y mezclando sus opciones.
 export function buildRound(bank = QUESTIONS) {
   const round = []
   for (const difficulty of ORDER) {
     const pool = bank.filter((q) => q.difficulty === difficulty)
-    const shuffled = [...pool].sort(() => Math.random() - 0.5)
-    round.push(...shuffled.slice(0, 3))
+    round.push(...shuffle(pool).slice(0, 3).map(shuffleOptions))
   }
   return round
 }

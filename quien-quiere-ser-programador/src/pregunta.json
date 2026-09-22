@@ -60,7 +60,7 @@
                 "Verdadero",
                 "Falso"
             ],
-            "respuesta": "Verdadero"
+            "respuesta": "Falso"
         },
         {
             "tipo": 1,
@@ -287,7 +287,7 @@
                 "13 de septiembre",
                 "No tiene día definido"
             ],
-            "respuesta": "12 de septiembre"
+            "respuesta": "13 de septiembre"
         },
         {
             "tipo": 4,

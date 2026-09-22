@@ -55,8 +55,8 @@ export default function WildcardBar({
           </span>
         </span>
         <span className="wildcard-label">
-          Preguntar
-          <br />a la IA
+          Preguntar a la IA/
+          <br />Llamar a alguien
         </span>
         {askSecondsLeft != null && (
           <span className="wildcard-timer">

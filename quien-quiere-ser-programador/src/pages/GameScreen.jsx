@@ -6,7 +6,7 @@ import QuestionBox from '../components/QuestionBox'
 import AnswerOptions from '../components/AnswerOptions'
 import DeskPhoto from '../components/DeskPhoto'
 import { HOST, getCharacter } from '../data/characters'
-import { QUESTIONS, buildRound } from '../data/questions'
+import { QUESTIONS, buildRound, shuffleOptions } from '../data/questions'
 import { formatPrize, prizeAt } from '../data/prizeLadder'
 import { playCorrect, playWrong, playSuspense } from '../utils/sound'
 import './GameScreen.css'
@@ -148,7 +148,7 @@ export default function GameScreen({ player, onGameOver }) {
     if (!alt) return
     setUsedSwap(true)
     setSwappedOut((s) => [...s, question.id])
-    setRound((r) => r.map((q, i) => (i === index ? alt : q)))
+    setRound((r) => r.map((q, i) => (i === index ? shuffleOptions(alt) : q)))
     resetForNextQuestion()
   }
 

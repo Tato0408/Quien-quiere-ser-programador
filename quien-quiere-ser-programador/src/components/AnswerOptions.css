@@ -38,14 +38,24 @@
 
 .opt-correct {
   border-color: var(--green) !important;
-  background: rgba(16, 185, 129, 0.14) !important;
+  background: var(--green) !important;
   box-shadow: 0 0 18px rgba(16, 185, 129, 0.4);
+}
+
+.opt-correct .opt-letter,
+.opt-correct .opt-text {
+  color: #ffffff;
 }
 
 .opt-wrong {
   border-color: var(--red) !important;
-  background: rgba(239, 68, 68, 0.14) !important;
+  background: var(--red) !important;
   box-shadow: 0 0 18px rgba(239, 68, 68, 0.4);
+}
+
+.opt-wrong .opt-letter,
+.opt-wrong .opt-text {
+  color: #ffffff;
 }
 
 .opt-eliminated {
